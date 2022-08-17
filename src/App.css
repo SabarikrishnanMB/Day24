@@ -1,9 +1,9 @@
-.card { 
-      
+.card {       
     margin: 0 auto;
-    box-shadow: .5rem .3rem rgba(172, 122, 100, 0.2);
+    box-shadow: .7rem .3rem rgba(172, 122, 100, 0.2);
     border-radius: 25px;
     background-image: linear-gradient(to right, #bdc5c5, #b8c6c2, #b6c7bc, #bbc6b2, #c4c4a9)!important;
+    
   }
 
   

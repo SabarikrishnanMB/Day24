@@ -12,42 +12,42 @@ function App() {
       title: "iPhone12",
       price: 90000,
       rating: 4,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+      image: "images/iphone.jpg"
     },
     {
       id: 2,
       title: "Samsung S21",
       price: 80000,
       rating: 3,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg",
+      image: "images/samsung.jpg",
     },
     {
       id: 3,
       title: "OnePlus+",
       price: 60000,
       rating: 3.5,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/oneplus-10t-5g.jpg"
+      image: "images/oneplus.jpg"
     },
     {
       id: 4,
       title: "Google Pixel",
       price: 70000,
       rating: 4.5,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-6-pro.jpg"
+      image: "images/pixel.jpg"
     },
     {
       id: 5,
       title: "Nothing Phone",
       price: 40000,
       rating: 3,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-1.jpg"
+      image: "images/nothing.jpg"
     },
     {
       id: 6,
       title: "Realme",
       price: 30000,
       rating: 4,
-      image: "https://fdn2.gsmarena.com/vv/bigpic/realme-gt2-master-explorer.jpg"
+      image: "images/realme.jpg"
     },
   ];
 
@@ -71,7 +71,7 @@ function App() {
       <div className="container">
   <nav className="navbar mt-3 mb-2 navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
-      <a className="navbar-brand fw-bold">Mobile Store</a>
+      <a className="navbar-brand fw-bold offset-5">Mobile Store</a>
     </div>
   </nav>
 </div>      
