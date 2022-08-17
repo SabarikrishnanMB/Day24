@@ -9,7 +9,7 @@ function Card({ item, cartItems, handleAddToCart }) {
         <div className="card-body">
           <h5 className="card-title ">{item.title}</h5>
           <p className="card-price fw-bold ">Rs.{item.price}</p>
-          <div className="card-text d-grid gap-2 col-8 mx-auto mb-2"> <ReactStars value={item.rating} isHalf = {true} size={25} activeColor="#ffd700"/></div>
+          <div className="card-text col-8 mx-auto mb-2"> <ReactStars value={item.rating} isHalf = {true} size={25} activeColor="#ffd700"/></div>
           <button 
             disabled={cartItems.some((obj) => obj.id === item.id)}
             onClick={() => {
